@@ -1,0 +1,10 @@
+  import { getDatabase, ref, set, child, get } from "firebase/database";
+
+function writeUserData(userId, name, email, imageUrl) {
+  const db = getDatabase();
+  set(ref(db, 'users/' + userId), {
+    username: name,
+    email: email,
+    profile_picture : imageUrl
+  });
+}

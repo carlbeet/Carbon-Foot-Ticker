@@ -1,0 +1,76 @@
+body{
+background-image:  url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80);
+background-size: cover;
+background-image:  limegreen;
+}
+
+.foot {
+	width:  50px;
+	height:  50px;
+	padding: 10 px;
+	margin-top:  30 px;
+	margin-left:  30px;
+	align-content: left;
+}
+
+.chart{
+	width:  700;
+	height:  420;
+  background: rgba(40, 30, 30, 0.7);
+  margin: 30px 50px;
+  cursor: crosshair;
+  outline-color:  white;
+  border-color: white;
+
+	margin-top:  10px;
+	margin-bottom:  50 px;
+	margin-left:  40px;
+	margin-right:  50 px;
+
+  /*background-color: #F1F1F1;*/
+  text-align: center;
+  padding: 20px;
+
+  border-radius:  50px;
+  
+
+}
+.line{
+
+
+	stroke:  limegreen;
+}
+
+ text {
+font-size:  50 px;
+font-weight:  thin;
+font-family:  "Helvetica";
+color:  white;
+
+
+}
+.focusText {
+	font-size:  30 px;
+font-weight:  bold;
+font-family:  "Helvetica";
+color:  white;
+
+}
+.header {
+
+font-size:  xx-large;
+font-weight:  bold;
+font-family:  "Helvetica";
+text-align: center;
+color: black ;
+
+
+
+}
+
+.units {
+	font-size:  small;
+	font-family:  "Helvetica";
+text-align: center;
+font-style:  oblique;
+}

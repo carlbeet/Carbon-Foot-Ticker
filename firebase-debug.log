@@ -1,0 +1,36 @@
+[debug] [2021-09-19T07:53:54.321Z] ----------------------------------------------------------------------
+[debug] [2021-09-19T07:53:54.322Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\isabe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-09-19T07:53:54.323Z] CLI Version:   9.18.0
+[debug] [2021-09-19T07:53:54.323Z] Platform:      win32
+[debug] [2021-09-19T07:53:54.323Z] Node Version:  v14.16.1
+[debug] [2021-09-19T07:53:54.327Z] Time:          Sun Sep 19 2021 03:53:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2021-09-19T07:53:54.327Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-09-19T07:53:54.373Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-09-19T07:53:54.373Z] > authorizing via signed-in user (isabelabonitalla@gmail.com)
+[debug] [2021-09-19T07:53:54.373Z] [iam] checking project hackher-9b4ed for permissions ["firebase.projects.get"]
+[debug] [2021-09-19T07:53:54.375Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-09-19T07:53:54.375Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-19T07:53:54.529Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Sun, 19 Sep 2021 07:53:55 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-19T07:53:54.535Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hackher-9b4ed:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-09-19T07:53:54.916Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Sep 2021 07:53:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=126","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-19T07:53:54.917Z] > refreshing access token with scopes: []
+[debug] [2021-09-19T07:53:54.917Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-09-19T07:53:55.011Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 19 Sep 2021 07:53:55 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-09-19T07:53:55.017Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed [none]
+[debug] [2021-09-19T07:53:55.334Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed 200
+[debug] [2021-09-19T07:53:55.334Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed {"projectId":"hackher-9b4ed","projectNumber":"875167518655","displayName":"hackathons","name":"projects/hackher-9b4ed","resources":{"hostingSite":"hackher-9b4ed","realtimeDatabaseInstance":"hackher-9b4ed","storageBucket":"hackher-9b4ed.appspot.com","locationId":"us-east1"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\isabe\OneDrive\Documents\Github\hackrice11'...
+[info] 
+[debug] [2021-09-19T07:53:55.336Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/hackher-9b4ed/sites 
+[debug] [2021-09-19T07:53:55.926Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/hackher-9b4ed/sites 200
+[debug] [2021-09-19T07:53:55.926Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/hackher-9b4ed/sites {"sites":[{"name":"projects/875167518655/sites/carbon-footprint-ticker","defaultUrl":"https://carbon-footprint-ticker.web.app","appId":"1:875167518655:web:ea3b2dd4bc31358d601b0a","type":"USER_SITE"},{"name":"projects/875167518655/sites/hackher-9b4ed","defaultUrl":"https://hackher-9b4ed.web.app","type":"DEFAULT_SITE"},{"name":"projects/875167518655/sites/hydrangea-hack","defaultUrl":"https://hydrangea-hack.web.app","appId":"1:875167518655:web:1b13b891eed22d0a601b0a","type":"USER_SITE"},{"name":"projects/875167518655/sites/openhacks-plate","defaultUrl":"https://openhacks-plate.web.app","appId":"1:875167518655:web:dfe580774e354a92601b0a","type":"USER_SITE"},{"name":"projects/875167518655/sites/stonk-stache","defaultUrl":"https://stonk-stache.web.app","type":"USER_SITE"}]}
+[debug] [2021-09-19T07:53:55.926Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed/webApps/-/config [none]
+[debug] [2021-09-19T07:53:56.339Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed/webApps/-/config 200
+[debug] [2021-09-19T07:53:56.339Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hackher-9b4ed/webApps/-/config {"projectId":"hackher-9b4ed","databaseURL":"https://hackher-9b4ed.firebaseio.com","storageBucket":"hackher-9b4ed.appspot.com","locationId":"us-east1","apiKey":"AIzaSyCFUzm27n9IkIV820A_VyyvCXb9v8cBI8A","authDomain":"hackher-9b4ed.firebaseapp.com","messagingSenderId":"875167518655"}
+[info] i  hosting[carbon-footprint-ticker]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[carbon-footprint-ticker]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
